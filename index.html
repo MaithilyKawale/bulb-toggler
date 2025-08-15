@@ -36,7 +36,7 @@
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
-      
+
     }
 
     h2 {
@@ -80,6 +80,48 @@
 
     #offbutton:hover {
       background-color: #e03c3a;
+    }
+
+   @media (max-width: 480px) {
+      h2 {
+        font-size: 1.3rem;
+      }
+      #card {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+      }
+
+      
+
+      img {
+        max-width: 150px;
+        height: auto;
+        width: 100%;
+      }
+
+      .btn-group {
+        flex-direction: column;
+      }
+
+      button {
+        width: 100%;
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 768px) and (min-width: 481px) {
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      img {
+        max-width: 180px;
+      }
+
+      button {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
